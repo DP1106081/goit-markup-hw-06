@@ -9,50 +9,6 @@
 
 /* ------------------------features------------------------------- */
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-.features {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-.features-container {
-  display: flex;
-  align-items: center;
-}
-.features-items {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 24px;
-}
-.features-cards {
-  width: calc((100% - 72px) / 4);
-}
-.features-titles {
-  margin-bottom: 8px;
-}
-
-.features-icon-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 264px;
-  height: 112px;
-  background-color: #f4f4fd;
-  margin-bottom: 8px;
-}
 /*----------------------section our team-------------------------------- */
 
 .our-team-container {

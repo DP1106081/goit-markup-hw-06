@@ -447,3 +447,117 @@ a {
 .order-button:focus {
   background-color: #404bbf;
 }
+
+/*  ------------section: strategy, punctuality...--------------- */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.features {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.features-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
+}
+.features-cards {
+  width: 100%;
+}
+
+.features-titles {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.features-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.features-icon {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .features-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+  .features-cards {
+    width: calc((100% - 24px) / 2);
+  }
+  .features-titles {
+    text-align: start;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .features-container {
+    display: flex;
+    align-items: center;
+  }
+  .features-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+  }
+  .features-cards {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .features-titles {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .features-text {
+    font-weight: 400;
+  }
+  .features-icon {
+    display: flex;
+  }
+  .features-icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
+  }
+}
