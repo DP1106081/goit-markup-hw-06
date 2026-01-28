@@ -1,3 +1,3 @@
-# goit-markup-hw-05
+# goit-markup-hw-06
 
-My HomeWork-05: CSS / form
+My HomeWork-06: mobile first
