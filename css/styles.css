@@ -561,3 +561,127 @@ a {
     margin-bottom: 8px;
   }
 }
+
+/* ------------------------section our team----------------- */
+
+.our-team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
+}
+.our-team {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: #f4f4fd;
+}
+.our-team-title,
+.portfolio-title {
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.team-list-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+}
+.name-profession {
+  padding: 32px 16px;
+}
+
+.team-names,
+.profession-text {
+  text-align: center;
+}
+.team-names {
+  margin-bottom: 8px;
+}
+.team-names,
+.portfolio-list-item-title,
+.features-titles {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  font-weight: 500;
+}
+
+.profession-text,
+.portfolio-text,
+.features-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: #434455;
+}
+
+.social-list {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #404bbf;
+}
+
+.social-icon {
+  fill: #f4f4fd;
+}
+@media screen and (min-width: 768px) {
+  .team-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+  .team-list-item {
+    width: 264px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .our-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .team-list-item {
+    width: calc((100% - 72px) / 4);
+  }
+}
