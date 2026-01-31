@@ -369,7 +369,7 @@ a {
   background-position: center;
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/bg-hero.jpg);
+    url(../images/hero-bg-mob.jpg);
   background-repeat: no-repeat;
   max-width: 320px;
   margin: 0 auto;
@@ -395,6 +395,9 @@ a {
     max-width: 768px;
     padding-top: 112px;
     padding-bottom: 112px;
+    background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/hero-bg-tab.jpg);
   }
   .title-capital {
     max-width: 496px;
@@ -415,6 +418,9 @@ a {
     max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/bg-hero.jpg);
   }
 }
 
