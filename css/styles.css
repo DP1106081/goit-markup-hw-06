@@ -539,7 +539,16 @@ a {
     text-align: start;
   }
 }
-
+@media screen and (max-width: 767px) {
+  .portfolio-list-item-title,
+  .features-titles {
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    font-weight: 700;
+  }
+}
 @media screen and (min-width: 1158px) {
   .features {
     padding-top: 120px;
@@ -633,9 +642,7 @@ a {
 .team-names {
   margin-bottom: 8px;
 }
-.team-names,
-.portfolio-list-item-title,
-.features-titles {
+.team-names {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
