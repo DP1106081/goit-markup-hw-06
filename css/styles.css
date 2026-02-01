@@ -367,12 +367,15 @@ a {
   background-repeat: no-repeat;
   max-width: 1440px;
   margin: 0 auto;
-  @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
+}
+@media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
+  .order-service {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/bg-hero-mob-2x.jpg);
   }
 }
+
 .hero-container {
   display: flex;
   flex-direction: column;
@@ -427,9 +430,9 @@ a {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/bg-hero-tab.jpg);
-
-    @media screen and (min-resolution: 2x),
-      (-webkit-min-device-pixel-ratio: 2) {
+  }
+  @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
+    .order-service {
       background-image:
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/bg-hero-tab-2x.jpg);
@@ -452,8 +455,9 @@ a {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/bg-hero.jpg);
-    @media screen and (min-resolution: 2x),
-      (-webkit-min-device-pixel-ratio: 2) {
+  }
+  @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
+    .order-service {
       background-image:
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/bg-hero-2x.jpg);
