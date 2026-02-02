@@ -276,6 +276,7 @@ a {
   display: block;
   font-style: normal;
   margin-bottom: 48px;
+  margin-top: auto;
 }
 
 .mobile-contacts-list {
@@ -733,6 +734,9 @@ a {
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
+.portfolio-list-item-title {
+  font-weight: 700;
+}
 
 .portfolio-cards {
   display: flex;
@@ -817,7 +821,7 @@ a {
 .footer-container {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 72px;
